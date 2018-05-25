@@ -41,10 +41,9 @@ module Palette(epaisseur = 3) {
 }
     
 module Poigne() {
-    scale(0.8) translate([brique.x/2+2795.5,-62.5,brique.z/2-1050]) rotate([-90,0,0]) import("Handle.stl", 10);
+    scale(0.8) translate([brique.x/2-153.5,-0,brique.z/2-100]) rotate([-90,0,0]) import("Handle.stl", 10);
 }
 
 
 Palette();
 Poigne();
-
